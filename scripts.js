@@ -1,0 +1,2 @@
+// Init onePageScroll
+onePageScroll(".main");

@@ -1,0 +1,44 @@
+.we-are-getting-married {
+    &__sangialba {
+        font-size: 1.2em;
+        color: #f22a62;
+        font-weight: $font-weight-bold;
+        margin-bottom: 70px;
+    }
+    &__title {
+        font-size: 7em;
+        line-height: .8em;
+        color: #000;
+        text-align: left;
+        font-weight: $font-weight-bold;
+    }
+    &__scroll-icon-container {
+        .we-are-getting-married__scroll-icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7px;
+            margin-left: -40px;
+            div {
+                border: 1px solid #afafaf;
+                width: 15px;
+                height: 25px;
+                line-height: 10px;
+                text-align: center;
+                border-radius: 4px;
+            }
+        }
+        margin-top: 25px;
+        .we-are-getting-married__scroll-icon-arrow-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: -40px;
+            .we-are-getting-married__scroll-icon-arrow {
+                transform: rotate(-90deg);
+                font-size: 1.5em;
+                line-height: .4em;
+                color: #afafaf;
+            }
+        }
+    }
+}

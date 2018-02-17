@@ -1,0 +1,19 @@
+.vanessa {
+    .card {
+        position: relative;
+    }
+    &__name {
+        color: #e930a3;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        position: absolute;
+        left: 0px;
+        line-height: .8em;
+        top: 70px;
+    }
+    img {
+        width: 480px;
+        position: absolute;
+        right: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.francesco {
+    .card {
+        position: relative;
+    }
+    &__name {
+        color: #5246fa;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        position: absolute;
+        right: 0px;
+        line-height: .8em;
+        top: 70px;
+    }
+    img {
+        width: 580px;
+        position: absolute;
+        left: 0;
+    }
+}

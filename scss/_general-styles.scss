@@ -1,0 +1,32 @@
+$font-weight-bold: 700;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    padding: 40px;
+}
+
+.card {
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+    width: 700px;
+    height: 480px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
