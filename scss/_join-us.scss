@@ -1,0 +1,15 @@
+.join-us {
+    &__title {
+        color: #0fc9ae;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        line-height: .8em;
+    }
+    &__image {
+        height: 400px;
+        position: absolute;
+        top: 70px !important;
+        right: 0 !important;
+        left: auto !important;
+    }
+}

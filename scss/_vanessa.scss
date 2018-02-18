@@ -7,13 +7,14 @@
         font-size: 4.9em;
         font-weight: $font-weight-bold;
         position: absolute;
-        left: 0px;
+        left: 0px !important;
         line-height: .8em;
-        top: 70px;
+        top: 70px !important;
     }
     img {
         width: 480px;
         position: absolute;
-        right: 0;
+        right: 0 !important;
+        left: auto !important;
     }
 }

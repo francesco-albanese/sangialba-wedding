@@ -12,6 +12,11 @@
         text-align: left;
         font-weight: $font-weight-bold;
     }
+
+    &__title-container {
+        position: relative !important;
+    }
+
     &__scroll-icon-container {
         .we-are-getting-married__scroll-icon {
             display: flex;

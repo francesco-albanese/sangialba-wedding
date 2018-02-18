@@ -7,13 +7,22 @@
         font-size: 4.9em;
         font-weight: $font-weight-bold;
         position: absolute;
-        right: 0px;
+        right: 0px !important;
+        left: auto !important;
         line-height: .8em;
-        top: 70px;
+        top: 70px !important;
     }
     img {
         width: 580px;
         position: absolute;
-        left: 0;
+        left: 0 !important;
+        right: auto !important;
+        height: 100%;
+    }
+    .ampersand {
+        text-align: center;
+        font-size: 6em;
+        font-weight: $font-weight-bold;
+        line-height: 80px;
     }
 }

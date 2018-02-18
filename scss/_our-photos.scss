@@ -1,0 +1,23 @@
+.our-photos {
+    img {
+        height: 300px;
+
+        &.top {
+            top: 0 !important;
+            left: -5px !important;
+            right: auto !important;
+        }
+        
+        &.middle {
+            right: 0 !important;
+            left: auto !important;
+        }
+
+        &.bottom {
+            bottom: -70px !important;
+            top: auto !important;
+            left: 30% !important;
+            right: auto !important; 
+        }
+    }
+}

@@ -2,7 +2,7 @@
   "name": "sangialba-wedding",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "build-task:scss-compile": "node-sass-chokidar --source-map true scss/ -o css --output-style compressed",
     "build-task:autoprefixer": "postcss css/*.css --use autoprefixer -d css",

@@ -1,0 +1,33 @@
+.days-to-go {
+    img {
+        height: 300px;
+        &.top {
+            top: 0 !important;
+            left: -5px !important;
+            right: auto !important;
+        }
+        &.middle {
+            right: 0 !important;
+            left: auto !important;
+        }
+    }
+
+    &__counter-container {
+        bottom: 0 !important;
+        top: auto !important;
+    }
+
+    &__counter {
+        color: #fc32ca;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        line-height: .8em;
+    }
+    &__text {
+        color: #fc32ca;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        line-height: .8em;
+    }
+}
