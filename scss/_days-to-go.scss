@@ -6,17 +6,17 @@
             left: -5px !important;
             right: auto !important;
         }
-        &.middle {
-            right: 0 !important;
-            left: auto !important;
+        &.bottom {
+            bottom: -70px !important;
+            top: auto !important;
+            left: 30% !important;
+            right: auto !important;
         }
     }
-
     &__counter-container {
-        bottom: 0 !important;
-        top: auto !important;
+        right: 0 !important;
+        left: auto !important;
     }
-
     &__counter {
         color: #fc32ca;
         font-size: 4.9em;

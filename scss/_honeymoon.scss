@@ -1,0 +1,19 @@
+.honeymoon {
+    &__title {
+        color: #0fc9ae;
+        font-size: 4.9em;
+        font-weight: $font-weight-bold;
+        line-height: .8em;
+    }
+    &__gift-details {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    img {
+        top: auto !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        left: auto !important;
+        max-width: 400px;
+    }
+}
